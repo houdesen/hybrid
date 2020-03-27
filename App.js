@@ -66,7 +66,8 @@ const App = () => {
 				Actions.homePage();
 				return true;
 			} else {
-				
+				Actions.pop();
+				return true;
 			}
 		}}>
 			<Scene key='root'>
